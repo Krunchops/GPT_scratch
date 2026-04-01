@@ -41,7 +41,13 @@ This project implements a **GPT-style decoder-only transformer from scratch usin
 ## 🔍 Attention Visualization
 
 The model’s attention weights were extracted and visualized as heatmaps.
+## Attention Visualization For 1st Attention Head
 
+![Attention Map](1st.png)
+## Attention Visualization For 2st Attention Head
+![Attention Map](2nd.png)
+## This is what a bigger heatmap looks like
+![Attention Map](ATTENTION_VISUALIZER.png)
 ### Observations:
 
 * Strong **diagonal patterns** → tokens attend to themselves
